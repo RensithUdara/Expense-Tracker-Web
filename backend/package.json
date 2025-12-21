@@ -4,10 +4,16 @@
   "description": "Backend API for MERN Expense Tracker",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node init && node server.js",
+    "dev": "node init && nodemon server.js"
   },
-  "keywords": ["mern", "backend", "expense-tracker", "api", "express"],
+  "keywords": [
+    "mern",
+    "backend",
+    "expense-tracker",
+    "api",
+    "express"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
